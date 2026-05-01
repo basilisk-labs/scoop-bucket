@@ -1,0 +1,16 @@
+{
+  "version": "0.4.1",
+  "description": "Git-native CLI harness for auditable coding-agent workflows",
+  "homepage": "https://agentplane.org",
+  "license": "MIT",
+  "depends": "nodejs",
+  "url": "https://registry.npmjs.org/agentplane/-/agentplane-0.4.1.tgz",
+  "hash": "76edd130dceddb1d15313a5feb3819c513c815b350b9abc822b3ea4712ccc74b",
+  "extract_dir": "package",
+  "bin": [
+    [
+      "bin/agentplane.js",
+      "agentplane"
+    ]
+  ]
+}
