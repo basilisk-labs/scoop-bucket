@@ -12,5 +12,15 @@
       "bin/agentplane.js",
       "agentplane"
     ]
+  ],
+  "checkver": {
+    "github": "https://github.com/basilisk-labs/agentplane/releases",
+    "regex": "v([\\d.]+)"
+  },
+  "autoupdate": {
+    "url": "https://github.com/basilisk-labs/agentplane/releases/download/v$version/agentplane-v$version-win32-x64.zip"
+  },
+  "notes": [
+    "Run `agentplane quickstart` after install to initialize repository conventions."
   ]
 }
