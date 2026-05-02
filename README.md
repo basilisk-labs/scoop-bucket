@@ -4,40 +4,34 @@ Scoop manifests for Basilisk Labs tools.
 
 **Topics:** `agentplane` `scoop` `windows` `cli`
 
-## AgentPlane
+## Why use this bucket
 
-Add the bucket and install AgentPlane:
+AgentPlane is designed to be used in regular developer tooling workflows.
+Scoop makes it easy for Windows users to install and keep it up to date with minimal friction.
+
+## Install
 
 ```powershell
 scoop bucket add basilisk-labs https://github.com/basilisk-labs/scoop-bucket
 scoop install agentplane
 ```
 
-This bucket is generated from AgentPlane release distribution metadata.
-
-## Discovery chips
-
-- `agentplane`
-- `cli`
-- `standalone`
-- `windows`
-
-## Update and verification
-
-To refresh with a new release (when checksum updates):
-
-```powershell
-scoop update agentplane
-```
-
-To verify installation:
+## Verify
 
 ```powershell
 agentplane --version
 agentplane quickstart
 ```
 
+## Update
+
+```powershell
+scoop update agentplane
+```
+
+Use `agentplane` immediately after install to initialize conventions for the current repository.
+
 ## Notes
 
 - `checkver` and `autoupdate` are configured for release discovery.
-- Keep manifest hash synchronized with the published standalone archive checksum.
+- Keep manifest checksum in sync with upstream standalone package artifacts.
