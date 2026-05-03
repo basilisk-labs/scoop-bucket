@@ -1,26 +1,29 @@
 {
-  "version": "0.4.1",
-  "description": "Git-native CLI harness for auditable coding-agent workflows",
-  "homepage": "https://agentplane.org",
+  "version": "0.4.2",
+  "description": "CLI for auditable coding-agent workflows",
+  "homepage": "https://github.com/basilisk-labs/agentplane",
   "license": "MIT",
-  "depends": "nodejs",
-  "url": "https://registry.npmjs.org/agentplane/-/agentplane-0.4.1.tgz",
-  "hash": "76edd130dceddb1d15313a5feb3819c513c815b350b9abc822b3ea4712ccc74b",
-  "extract_dir": "package",
-  "bin": [
-    [
-      "bin/agentplane.js",
-      "agentplane"
-    ]
+  "notes": [
+    "Run `agentplane quickstart` after install to initialize repository conventions.",
+    "Use `agentplane --version` to verify reproducibility."
   ],
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/basilisk-labs/agentplane/releases/download/v0.4.2/agentplane-v0.4.2-win32-x64.zip",
+      "hash": "2050625d6c9032020decc1805c02d9f25a4a9b8b5ec3434a12bbaa37532df5cd"
+    }
+  },
   "checkver": {
     "github": "https://github.com/basilisk-labs/agentplane/releases",
-    "regex": "v([\\d.]+)"
+    "regex": "v([\\\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://github.com/basilisk-labs/agentplane/releases/download/v$version/agentplane-v$version-win32-x64.zip"
+    "url": "https://github.com/basilisk-labs/agentplane/releases/download/v${version}/agentplane-v${version}-win32-x64.zip"
   },
-  "notes": [
-    "Run `agentplane quickstart` after install to initialize repository conventions."
+  "bin": [
+    [
+      "bin\\agentplane.cmd",
+      "agentplane"
+    ]
   ]
 }
