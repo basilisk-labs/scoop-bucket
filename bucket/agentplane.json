@@ -10,7 +10,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/basilisk-labs/agentplane/releases/download/v0.4.2/agentplane-v0.4.2-win32-x64.zip",
-      "hash": "2050625d6c9032020decc1805c02d9f25a4a9b8b5ec3434a12bbaa37532df5cd"
+      "hash": "35916139a8fc0bba0f0a1fdf12ef5a0af5cb390201ede81a1a3f182c85ab6969"
     }
   },
   "checkver": {
