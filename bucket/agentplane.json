@@ -1,5 +1,5 @@
 {
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "CLI for auditable coding-agent workflows",
   "homepage": "https://github.com/basilisk-labs/agentplane",
   "license": "MIT",
@@ -9,8 +9,8 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://github.com/basilisk-labs/agentplane/releases/download/v0.4.2/agentplane-v0.4.2-win32-x64.zip",
-      "hash": "35916139a8fc0bba0f0a1fdf12ef5a0af5cb390201ede81a1a3f182c85ab6969"
+      "url": "https://github.com/basilisk-labs/agentplane/releases/download/v0.4.3/agentplane-v0.4.3-win32-x64.zip",
+      "hash": "c4c037fa107debfe3f6ac55ab9486b5a3f88c92879518f3df37410878ec327c4"
     }
   },
   "checkver": {
