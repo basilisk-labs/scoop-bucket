@@ -10,7 +10,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/basilisk-labs/agentplane/releases/download/v0.7.8/agentplane-bun-v0.7.8-win32-x64.zip",
-      "hash": "f7e273c865e125c630ae459a7f24083fed74567c94e1dd0bbffa5f85fa2bc779"
+      "hash": "4d1c4045d1ceddcd6cb9c2b926c1f071090f9415560bf3d084f0c90e0177a00d"
     }
   },
   "checkver": {
